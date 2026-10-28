@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-25",
+  "accepted": 3,
+  "discovery": [
+    {
+      "source": "Just Energy News",
+      "count": 2,
+      "status": "ok"
+    },
+    {
+      "source": "Midstream Calendar",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "source": "EnergyNow",
+      "status": "unavailable",
+      "reason": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "excluded": [],
+  "articles": [
+    {
+      "title": "Bangladesh buying 6 LNG cargoes from Singapore, Qatar",
+      "source": "Just Energy News",
+      "url": "https://justenergynews24.com/bangladesh-buying-6-lng-cargoes-from-singapore-qatar/",
+      "final_url": "https://justenergynews24.com/bangladesh-buying-6-lng-cargoes-from-singapore-qatar/",
+      "http_status": 200,
+      "published_at": "2026-10-25",
+      "published_at_raw": "2026-10-25T11:36:27+00:00",
+      "index_date": "2026-10-25T17:36:27",
+      "html_sha256": "7b04f3ab851ed79c4f067c18a990518a2419ffb0b38b5a7207bdad32a87b3e5a",
+      "verification": "https_200+page_metadata+publisher_archive+text_match",
+      "id": "N1"
+    },
+    {
+      "title": "Cabinet committee discusses LNG purchase proposal from Japan’s JERA",
+      "source": "Just Energy News",
+      "url": "https://justenergynews24.com/cabinet-committee-discusses-lng-purchase-proposal-from-japans-jera/",
+      "final_url": "https://justenergynews24.com/cabinet-committee-discusses-lng-purchase-proposal-from-japans-jera/",
+      "http_status": 200,
+      "published_at": "2026-10-25",
+      "published_at_raw": "2026-10-25T11:33:09+00:00",
+      "index_date": "2026-10-25T17:33:09",
+      "html_sha256": "bdfce2d1d63c56f606b3329daf8bbebb2caa00af120c540792a0715c4ee4c7c4",
+      "verification": "https_200+page_metadata+publisher_archive+text_match",
+      "id": "N2"
+    },
+    {
+      "title": "MidOcean Reports More Than $4 Billion in Closed and Pending Equity Commitments for Global LNG Strategy",
+      "source": "Midstream Calendar",
+      "url": "https://midstreamcalendar.com/2026/10/25/midocean-reports-more-than-4-billion-in-closed-and-pending-equity-commitments-for-global-lng-strategy/",
+      "final_url": "https://midstreamcalendar.com/2026/10/25/midocean-reports-more-than-4-billion-in-closed-and-pending-equity-commitments-for-global-lng-strategy/",
+      "http_status": 200,
+      "published_at": "2026-10-25",
+      "published_at_raw": "2026-10-25T09:29:24-05:00",
+      "index_date": "2026-10-25T09:29:24",
+      "html_sha256": "e86f7309f8a20b87d4df12d02bde9715de49f53e09726697f36bd457f5c6a8bb",
+      "verification": "https_200+page_metadata+publisher_archive+text_match",
+      "id": "N3"
+    }
+  ]
+}

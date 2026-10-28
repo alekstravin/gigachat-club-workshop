@@ -1,0 +1,71 @@
+{
+  "TEST_ONLY": "Synthetic unsigned format example; HTTP/date verification fields are mocks, URLs were NOT fetched. Must be rejected by production without a valid trusted signature.",
+  "evidence": {
+    "schema": "club-news-evidence-v1",
+    "period_start": "2026-10-25",
+    "period_end": "2026-10-25",
+    "checked_at": "2026-10-28T00:00:00+00:00",
+    "date_basis": "MOCK ONLY: dates, HTTP status and verification strings are test doubles; nothing downloaded",
+    "test_only": true,
+    "articles": [
+      {
+        "id": "N1",
+        "title": "Вымышленный учебный материал",
+        "source": "СИНТЕТИЧЕСКИЙ ИСТОЧНИК — НЕ СМИ",
+        "url": "https://example.org/synthetic-news/1",
+        "final_url": "https://example.org/synthetic-news/1",
+        "http_status": 200,
+        "published_at": "2026-10-25",
+        "published_at_raw": "2026-10-25T12:00:00+00:00",
+        "index_date": "2026-10-25T12:00:00",
+        "text": "Учебная вымышленная заметка сообщает о макете газового терминала. Участники занятия рассматривают иллюстрацию, обсуждают источники и отмечают границы автоматической проверки. Этот текст написан специально для теста, не опубликован в СМИ и не описывает реальную сделку. Проверка цитаты должна находить только точные фразы этого авторского текста.",
+        "evidence_quotes": [
+          "Учебная вымышленная заметка сообщает о макете газового терминала."
+        ],
+        "verification": "https_200+page_metadata+publisher_archive+text_match",
+        "test_only": true
+      },
+      {
+        "id": "N2",
+        "title": "Fictional JERA proposal for a synthetic test",
+        "source": "СИНТЕТИЧЕСКИЙ ИСТОЧНИК — НЕ СМИ",
+        "url": "https://example.org/synthetic-news/2",
+        "final_url": "https://example.org/synthetic-news/2",
+        "http_status": 200,
+        "published_at": "2026-10-25",
+        "published_at_raw": "2026-10-25T12:00:00+00:00",
+        "index_date": "2026-10-25T12:00:00",
+        "text": "Учебная вымышленная заметка описывает предложение условного поставщика JERA для демонстрации сохранения оговорок. Это не реальная публикация и не сообщение о компании. Ключевые слова deferred и vetting нужны исключительно для тестирования правила: предложение отложено до проверки. Материал создан автором учебного примера, а не извлечён с сайта.",
+        "evidence_quotes": [
+          "Учебная вымышленная заметка описывает предложение условного поставщика JERA для демонстрации сохранения оговорок."
+        ],
+        "verification": "https_200+page_metadata+publisher_archive+text_match",
+        "test_only": true
+      },
+      {
+        "id": "N3",
+        "title": "Вымышленный учебный материал",
+        "source": "СИНТЕТИЧЕСКИЙ ИСТОЧНИК — НЕ СМИ",
+        "url": "https://example.org/synthetic-news/3",
+        "final_url": "https://example.org/synthetic-news/3",
+        "http_status": 200,
+        "published_at": "2026-10-25",
+        "published_at_raw": "2026-10-25T12:00:00+00:00",
+        "index_date": "2026-10-25T12:00:00",
+        "text": "Учебная вымышленная заметка посвящена обсуждению макета морской перевозки СПГ. Она создана для проверки русского вывода, сопоставления идентификаторов и блокировки выдуманной цитаты. Никаких действительных инвестиций или производственных планов здесь не заявлено. Использование домена example.org обозначает условный адрес; сетевой запрос к нему не выполняется.",
+        "evidence_quotes": [
+          "Учебная вымышленная заметка посвящена обсуждению макета морской перевозки СПГ."
+        ],
+        "verification": "https_200+page_metadata+publisher_archive+text_match",
+        "test_only": true
+      }
+    ],
+    "discovery": [
+      {
+        "source": "СИНТЕТИЧЕСКИЙ ИСТОЧНИК — НЕ СМИ",
+        "status": "ok"
+      }
+    ],
+    "excluded": []
+  }
+}
